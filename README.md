@@ -8,11 +8,11 @@ To be able to run external python files with CoppeliaSim, please follow the inst
 https://manual.coppeliarobotics.com/en/zmqRemoteApiOverview.htm
 
 # UR5 Schematic
-![UR5_Schematic](https://github.com/mazenelgabalawy/Control-of-Robotic-Manipulator/assets/72276135/c90dab51-c18b-4bc3-95a5-911fb1df31d3)
+![UR5_Schematic](https://github.com/mazenelgabalawy/Control-of-Robotic-Manipulator/assets/72276135/7764e2c8-1866-446d-9f8a-284eb2c9eb57)
 
 # DH-Table
 The lengths are all in meters and all angles are in Radian.
-![image](https://github.com/mazenelgabalawy/Control-of-Robotic-Manipulator/assets/72276135/1b68ba23-f4d5-4c2f-9068-2c02be7dcf27)
+![image](https://github.com/mazenelgabalawy/Control-of-Robotic-Manipulator/assets/72276135/0072e048-7d02-4776-ae12-b4d30573aa0c)
 
 # Forward Kinematics
 Forward kinematics are first calculated analytically using the Denavit-Hartenberg Parameters. The pose of the End-Effector that is obtained through the analytic method, is then compared to that coming from the CoppeliaSim Scene to ensure the DH-table is correct.
