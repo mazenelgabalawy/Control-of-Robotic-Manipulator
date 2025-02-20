@@ -19,7 +19,10 @@ def link_transformation_matrix(dh_line):
     theta = dh_line[0]; alpha = dh_line[1]; a = dh_line[2]; d = dh_line[3]
     c_th = np.cos(theta); s_th = np.sin(theta); c_alp = np.cos(alpha); s_alp = np.sin(alpha)
     
-    T=np.array([[c_th,-s_th*c_alp,s_th*s_alp,a*c_th],[s_th,c_th*c_alp,-c_th*s_alp,a*s_th],[0,s_alp,c_alp,d],[0,0,0,1]])
+    T=np.array([[c_th,-s_th*c_alp,s_th*s_alp,a*c_th],
+                [s_th,c_th*c_alp,-c_th*s_alp,a*s_th],
+                [0,s_alp,c_alp,d],
+                [0,0,0,1]])
     return np.round(T,3)
 
 #find all transformations between frame{i} to frame{i-1} and put it in a list
